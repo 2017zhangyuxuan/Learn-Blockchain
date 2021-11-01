@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../build/output/lib/libUTIL_LIBRARY.a CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.o CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../build/output/lib/libUTIL_LIBRARY.a

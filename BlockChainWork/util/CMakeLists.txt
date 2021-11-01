@@ -1,0 +1,2 @@
+AUX_SOURCE_DIRECTORY(. UTIL_SRC)
+add_library(UTIL_LIBRARY ${UTIL_SRC} AsymmetricKeys.h)

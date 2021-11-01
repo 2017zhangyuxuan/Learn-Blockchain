@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BlockchainWork"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\util\;CMake Files\blockchain\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlockchainWork">
+				<Option output="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/build/output/bin/BlockchainWork" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/build/output/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cryptopp/include"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 BlockchainWork"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlockchainWork/fast">
+				<Option output="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/build/output/bin/BlockchainWork" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/build/output/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cryptopp/include"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 BlockchainWork/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UTIL_LIBRARY">
+				<Option output="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/build/output/lib/libUTIL_LIBRARY.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cryptopp/include"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 UTIL_LIBRARY"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UTIL_LIBRARY/fast">
+				<Option output="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/build/output/lib/libUTIL_LIBRARY.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cryptopp/include"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 UTIL_LIBRARY/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BLOCKCHAIN_LIBRARY">
+				<Option output="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/build/output/lib/libBLOCKCHAIN_LIBRARY.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cryptopp/include"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain/Makefile&quot;  VERBOSE=1 BLOCKCHAIN_LIBRARY"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BLOCKCHAIN_LIBRARY/fast">
+				<Option output="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/build/output/lib/libBLOCKCHAIN_LIBRARY.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cryptopp/include"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain/Makefile&quot;  VERBOSE=1 BLOCKCHAIN_LIBRARY/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TEST_LIBRARY">
+				<Option output="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/build/output/lib/libTEST_LIBRARY.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cryptopp/include"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 TEST_LIBRARY"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TEST_LIBRARY/fast">
+				<Option output="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/build/output/lib/libTEST_LIBRARY.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cryptopp/include"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util"/>
+					<Add directory="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 TEST_LIBRARY/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/DataBase.cpp">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/DataBase.h">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/MerkleTree.cpp">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/MerkleTree.h">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Block.cpp">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Block.h">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Miner.cpp">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Miner.h">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/Transaction.cpp">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/Transaction.h">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxIn.cpp">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxIn.h">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxOut.cpp">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxOut.h">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/UTXO.cpp">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/UTXO.h">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/SimpleWallet.cpp">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/SimpleWallet.h">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/Wallet.cpp">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/Wallet.h">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/WalletKeys.cpp">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/WalletKeys.h">
+			<Option target="BLOCKCHAIN_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/main.cpp">
+			<Option target="BlockchainWork"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.cpp">
+			<Option target="TEST_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.h">
+			<Option target="TEST_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.cpp">
+			<Option target="TEST_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.h">
+			<Option target="TEST_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/AsymmetricKeys.h">
+			<Option target="UTIL_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/ECDSAKeys.cpp">
+			<Option target="UTIL_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/ECDSAKeys.h">
+			<Option target="UTIL_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/util.cpp">
+			<Option target="UTIL_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/util.h">
+			<Option target="UTIL_LIBRARY"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\util\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\blockchain\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
