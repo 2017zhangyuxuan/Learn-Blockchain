@@ -16,6 +16,12 @@ public:
 
     // ECDSA 公私钥加载，签名与验证
     void ECDSA_LOAD();
+
+    // 测试大整数操作，模拟实现椭圆曲线的签名过程
+    void Test_SimulateSign();
+
+    // 测试 SM2 类
+    void Test_SM2();
 };
 
 

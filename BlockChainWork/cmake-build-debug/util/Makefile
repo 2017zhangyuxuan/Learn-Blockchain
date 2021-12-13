@@ -154,6 +154,30 @@ ECDSAKeys.cpp.s:
 	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.s
 .PHONY : ECDSAKeys.cpp.s
 
+SM2.o: SM2.cpp.o
+.PHONY : SM2.o
+
+# target to build an object file
+SM2.cpp.o:
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.o
+.PHONY : SM2.cpp.o
+
+SM2.i: SM2.cpp.i
+.PHONY : SM2.i
+
+# target to preprocess a source file
+SM2.cpp.i:
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.i
+.PHONY : SM2.cpp.i
+
+SM2.s: SM2.cpp.s
+.PHONY : SM2.s
+
+# target to generate assembly for a file
+SM2.cpp.s:
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.s
+.PHONY : SM2.cpp.s
+
 util.o: util.cpp.o
 .PHONY : util.o
 
@@ -190,6 +214,9 @@ help:
 	@echo "... ECDSAKeys.o"
 	@echo "... ECDSAKeys.i"
 	@echo "... ECDSAKeys.s"
+	@echo "... SM2.o"
+	@echo "... SM2.i"
+	@echo "... SM2.s"
 	@echo "... util.o"
 	@echo "... util.i"
 	@echo "... util.s"

@@ -69,145 +69,145 @@ include blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.o: ../blockchain/DataBase.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/DataBase.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/DataBase.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/DataBase.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/DataBase.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/DataBase.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/DataBase.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.o: ../blockchain/MerkleTree.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/MerkleTree.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/MerkleTree.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/MerkleTree.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/MerkleTree.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/MerkleTree.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/MerkleTree.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.o: ../blockchain/block/Block.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Block.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Block.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Block.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Block.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Block.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Block.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.o: ../blockchain/block/Miner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Miner.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Miner.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Miner.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Miner.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Miner.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Miner.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.o: ../blockchain/transaction/Transaction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/Transaction.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/Transaction.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/Transaction.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/Transaction.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/Transaction.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/Transaction.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.o: ../blockchain/transaction/TxIn.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxIn.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxIn.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxIn.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxIn.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxIn.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxIn.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.o: ../blockchain/transaction/TxOut.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxOut.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxOut.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxOut.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxOut.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxOut.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxOut.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.o: ../blockchain/transaction/UTXO.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/UTXO.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/UTXO.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/UTXO.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/UTXO.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/UTXO.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/UTXO.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.o: ../blockchain/wallet/SimpleWallet.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/SimpleWallet.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/SimpleWallet.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/SimpleWallet.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/SimpleWallet.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/SimpleWallet.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/SimpleWallet.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.o: ../blockchain/wallet/Wallet.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/Wallet.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/Wallet.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/Wallet.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/Wallet.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/Wallet.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/Wallet.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o: ../blockchain/wallet/WalletKeys.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/WalletKeys.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/WalletKeys.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/WalletKeys.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/WalletKeys.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/WalletKeys.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/WalletKeys.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.s
 
 # Object files for target BLOCKCHAIN_LIBRARY
 BLOCKCHAIN_LIBRARY_OBJECTS = \

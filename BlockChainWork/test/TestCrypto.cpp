@@ -16,6 +16,8 @@
 #include <ripemd.h>
 #include <dsa.h>
 #include <wallet/WalletKeys.h>
+#include <sm3.h>
+#include <SM2.h>
 #include "test.h"
 #include "ECDSAKeys.h"
 #include "util.h"
@@ -85,7 +87,7 @@ void TestCrypto::ECDSA_Generate()
     cout << "priHexKey:"<<priHexKey.size() << "  " << priHexKey << endl;
 
     // Save private key in PKCS #8 format
-    FileSink fs1( "../../../keys/private.ec.der", true /*binary*/ );
+    FileSink fs1( "../../keys/private.ec.der", true /*binary*/ );
     privateKey.Save( fs1 );
 
     // Generate publicKey
@@ -105,15 +107,15 @@ void TestCrypto::ECDSA_Generate()
     cout << "qyHex:" << qyHex << endl;
 
     // Save public key in X.509 format
-    FileSink fs2( "../../../keys/public.ec.der", true /*binary*/ );
+    FileSink fs2( "../../keys/public.ec.der", true /*binary*/ );
     publicKey.Save( fs2 );
 
 }
 
 void TestCrypto::ECDSA_LOAD(){
     AutoSeededRandomPool prng;
-    FileSource fs1( "../../../keys/private.ec.der", true /*pump all*/ );
-    FileSource fs2( "../../../keys/public.ec.der", true /*pump all*/ );
+    FileSource fs1( "../../keys/private.ec.der", true /*pump all*/ );
+    FileSource fs2( "../../keys/public.ec.der", true /*pump all*/ );
     ECDSA<ECP, SHA256>::PrivateKey privateKey;
     ECDSA<ECP, SHA256>::PublicKey publicKey;
     // 加载私钥， 私钥格式：PKCS #8
@@ -167,5 +169,121 @@ void TestCrypto::ECDSA_LOAD(){
         std::cout << "Verified signature on message" << std::endl;
     else
         std::cerr << "Failed to verify signature on message" << std::endl;
+
+}
+
+
+void TestCrypto::Test_SimulateSign() {
+    // 先模拟签名过程
+    Integer k,e,r,s,a=0,b=7;
+    k = Util::GetRandomInteger(4);          // 临时私钥
+    // e 是消息散列
+    e = Util::StringToInteger("9CE3A97A43618E606AD1FCD7926DE493E69E58CC0DD3139183A4E337F8E81A41");
+    Integer prime = Util::StringToInteger("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F");
+
+    ECP secp256k1(prime, a, b);
+    Integer xg = Util::StringToInteger("79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798");
+    Integer yg = Util::StringToInteger("483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8");
+    ECP::Point G(xg,yg);        // 生成元
+    Integer n = Util::StringToInteger("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141");
+    Integer d = Util::StringToInteger("E4A6CFB431471CFCAE491FD566D19C87082CF9FA7722D7FA24B2B3F5669DBEFB");      //私钥
+    ECP::Point Q = secp256k1.Multiply(d,G); //公钥
+
+    cout << "——————————椭圆曲线参数——————————"<< endl;
+    cout << "p:" << prime << endl;
+    cout << "a:" << a << endl;
+    cout << "b:" << b << endl;
+    cout << "生成点G:" << endl;
+    cout << "G.x:" << xg << endl;
+    cout << "G.y:" << yg <<endl;
+    cout << "n:" << n << endl;
+    cout << "私钥d:" << d << endl;
+    cout << "公钥Q:" << endl;
+    cout << "Q.x:" << IntToString(Q.x) << endl;
+    cout << "Q.y:" << IntToString(Q.y) << endl;
+
+
+    // 签名算法
+    ECP::Point R = secp256k1.Multiply(k, G);
+    r = R.x.Modulo(n);
+    Integer k_1 = k.InverseMod(n);
+    s = (k_1 * (d * r + e)).Modulo(n);
+    cout << "——————————签名过程——————————" << endl;
+    cout << "r:" << r << endl;
+    cout << "s:" << s << endl;
+
+    // 验证签名
+    Integer s_1 = s.InverseMod(n);
+    Integer u_1 = (e * s_1).Modulo(n);
+    Integer u_2 = (r * s_1).Modulo(n);
+    ECP::Point tmp1 = secp256k1.Multiply(u_1,G);
+    ECP::Point tmp2 = secp256k1.Multiply(u_2,Q);
+    ECP::Point X = secp256k1.Add(tmp1, tmp2);
+    cout << "——————————验证过程——————————" << endl;
+    cout << "签名中的r:" <<r % n << endl;
+    cout << "计算得到的x:"<<X.x % n<< endl;
+
+
+    // 公钥恢复
+    bool isOdd = R.y.IsOdd();
+    Integer r_1 = r.InverseMod(n);
+    Integer y_2 = (r * r * r + 7) ;
+
+    // 模素数平方根的求解: 当  p = 4u+3, g = y^2, y= g^(u+1) % p
+    Integer u = (prime-3).DividedBy(4);
+    Integer y = a_exp_b_mod_c(y_2,u+1,prime);      // 返回  a^b % c
+
+    if ((isOdd && y.IsEven()) || (!isOdd && y.IsOdd())) {       // 如果与原来的y坐标奇偶性相反
+        y = prime - y;
+    }
+
+    ECP::Point tmpR(r,y);
+    ECP::Point tmp3 = secp256k1.Multiply(s,tmpR);
+    ECP::Point tmp4 = secp256k1.Multiply(e,G);
+    tmp3 = secp256k1.Subtract(tmp3,tmp4);
+    tmp4 = secp256k1.Multiply(r_1,tmp3);
+
+    cout << "——————————公钥恢复——————————" << endl;
+    cout << "计算的x:" << tmp4.x << endl;
+    cout << "公钥Q.x:" <<Q.x << endl;
+    cout << "计算的y:"<< tmp4.y << endl;
+    cout << "公钥Q.y:"<<Q.y << endl;
+}
+
+// 测试 SM2 类
+void TestCrypto::Test_SM2() {
+    SM2 sm2;
+    std::string message = "message digest";
+    std::string signature;
+    Integer k = Util::StringToInteger("59276E27D506861A16680F3AD9C02DCCEF3CC1FA3CDBE4CE6D54B80DEAC1BC21");
+    sm2.Sign(message, signature, k);
+
+    Integer r = Util::StringToInteger(Util::HexEncode(signature.substr(0,32)));
+    Integer s = Util::StringToInteger(Util::HexEncode(signature.substr(32,32)));
+
+    // 打印输出，对照真实数据
+    cout << "——————————————测试SM2 签名算法——————————————" << endl;
+    cout << "真实 r:" << "F5A03B0648D2C4630EEAC513E1BB81A15944DA3827D5B74143AC7EACEEE720B3" << endl;
+    cout << "计算 r:" << Util::HexEncode(signature.substr(0,32)) << endl;
+    cout << "真实 s:" << "B1B6AA29DF212FD8763182BC0D421CA1BB9038FD1F7F42D4840B69C485BBC1AA" << endl;
+    cout << "计算 s:" << Util::HexEncode(signature.substr(32,32)) << endl;
+
+    cout << "——————————————测试SM2 验证签名——————————————" << endl;
+    cout << "message: " << message << endl;
+    cout << "r: " << Util::IntegerToString(r) << endl;
+    cout << "s: " << Util::IntegerToString(s) << endl;
+    cout << "签名验证结果: " << boolalpha << sm2.Verify(message, signature ) << endl;
+
+
+    cout << "——————————————测试SM2 公钥恢复算法——————————————" << endl;
+    std::string pubKey;
+    sm2.RecoverPublicKey(message,false, r, s,pubKey);
+    ECP::Point P(Util::StringToInteger(Util::HexEncode(pubKey.substr(0,32))),
+                 Util::StringToInteger(Util::HexEncode(pubKey.substr(32,32))));
+    cout << "真实公钥 P.x:" << "09F9DF311E5421A150DD7D161E4BC5C672179FAD1833FC076BB08FF356F35020" << endl;
+    cout << "恢复公钥 P.x:" << Util::IntegerToString(P.x) << endl;
+    cout << "真实公钥 P.y:" << "CCEA490CE26775A52DC6EA718CC1AA600AED05FBF35E084A6632F6072DA9AD13" << endl;
+    cout << "恢复公钥 P.y:" << Util::IntegerToString(P.y) << endl;
+
 
 }

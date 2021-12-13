@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "../../build/output/lib/libUTIL_LIBRARY.a"
   "../../build/output/lib/libUTIL_LIBRARY.pdb"
   "CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.o"
+  "CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.o"
   "CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o"
 )
 

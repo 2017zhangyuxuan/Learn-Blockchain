@@ -69,15 +69,15 @@ include CMakeFiles/BlockchainWork.dir/flags.make
 CMakeFiles/BlockchainWork.dir/main.cpp.o: CMakeFiles/BlockchainWork.dir/flags.make
 CMakeFiles/BlockchainWork.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlockchainWork.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockchainWork.dir/main.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlockchainWork.dir/main.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/main.cpp
 
 CMakeFiles/BlockchainWork.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlockchainWork.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/main.cpp > CMakeFiles/BlockchainWork.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/main.cpp > CMakeFiles/BlockchainWork.dir/main.cpp.i
 
 CMakeFiles/BlockchainWork.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlockchainWork.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/main.cpp -o CMakeFiles/BlockchainWork.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/main.cpp -o CMakeFiles/BlockchainWork.dir/main.cpp.s
 
 # Object files for target BlockchainWork
 BlockchainWork_OBJECTS = \

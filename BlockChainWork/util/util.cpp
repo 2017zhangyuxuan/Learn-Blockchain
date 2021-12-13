@@ -14,6 +14,7 @@
 #include <filesystem>
 #include <hex.h>
 #include <ripemd.h>
+#include <sm4.h>
 
 using namespace CryptoPP;   // 使用密码学相关库函数
 
@@ -159,6 +160,32 @@ std::string Util::GetRandomBytes(int bytes) {
     return reinterpret_cast<const char *>(output);
 }
 
+// 输入为产生随机数的字节数，输出为Integer
+Integer Util::GetRandomInteger(int bytes) {
+    AutoSeededRandomPool rng;       // 随机数生成器
+    byte output[bytes];
+    rng.GenerateBlock(output, bytes);
+    return Integer(output, bytes);
+}
+
+// 输入为哈希值（Hex编码），输出为Integer
+Integer Util::StringToInteger(const std::string& hash) {
+    HexDecoder decoder;
+    decoder.Put((byte*)&hash[0], hash.size());
+    decoder.MessageEnd();
+    Integer hashValue;
+    hashValue.Decode(decoder, decoder.MaxRetrievable());
+    return hashValue;
+}
+
+// 输入为大整数 Integer，输出为String（Hex编码）
+std::string Util::IntegerToString(const CryptoPP::Integer& num) {
+    std::string res;
+    HexEncoder encoder(new StringSink(res));
+    num.Encode(encoder,ceil(num.BitCount()/8.0));
+    return res;
+}
+
 // 字节形式转换为Hex编码
 std::string Util::HexEncode(const std::string bytes) {
     std::string hex;
@@ -226,4 +253,6 @@ std::string Util::DecodeBase58Check(const std::string base58) {
     std::string bytes(res.begin(), res.end()-4);    // 减去后面的4字节hash checksum
     return bytes;
 }
+
+
 

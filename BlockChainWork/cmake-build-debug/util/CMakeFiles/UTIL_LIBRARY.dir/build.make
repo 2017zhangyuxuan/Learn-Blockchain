@@ -69,42 +69,57 @@ include util/CMakeFiles/UTIL_LIBRARY.dir/flags.make
 util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.o: util/CMakeFiles/UTIL_LIBRARY.dir/flags.make
 util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.o: ../util/ECDSAKeys.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/ECDSAKeys.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/ECDSAKeys.cpp
 
 util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/ECDSAKeys.cpp > CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/ECDSAKeys.cpp > CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.i
 
 util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/ECDSAKeys.cpp -o CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/ECDSAKeys.cpp -o CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.s
+
+util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.o: util/CMakeFiles/UTIL_LIBRARY.dir/flags.make
+util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.o: ../util/SM2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.o"
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/SM2.cpp
+
+util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.i"
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/SM2.cpp > CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.i
+
+util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.s"
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/SM2.cpp -o CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.s
 
 util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o: util/CMakeFiles/UTIL_LIBRARY.dir/flags.make
 util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o: ../util/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o"
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/util.cpp
 
 util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UTIL_LIBRARY.dir/util.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/util.cpp > CMakeFiles/UTIL_LIBRARY.dir/util.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/util.cpp > CMakeFiles/UTIL_LIBRARY.dir/util.cpp.i
 
 util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UTIL_LIBRARY.dir/util.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/util.cpp -o CMakeFiles/UTIL_LIBRARY.dir/util.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util/util.cpp -o CMakeFiles/UTIL_LIBRARY.dir/util.cpp.s
 
 # Object files for target UTIL_LIBRARY
 UTIL_LIBRARY_OBJECTS = \
 "CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.o" \
+"CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.o" \
 "CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o"
 
 # External object files for target UTIL_LIBRARY
 UTIL_LIBRARY_EXTERNAL_OBJECTS =
 
 ../build/output/lib/libUTIL_LIBRARY.a: util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.o
+../build/output/lib/libUTIL_LIBRARY.a: util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.o
 ../build/output/lib/libUTIL_LIBRARY.a: util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o
 ../build/output/lib/libUTIL_LIBRARY.a: util/CMakeFiles/UTIL_LIBRARY.dir/build.make
 ../build/output/lib/libUTIL_LIBRARY.a: util/CMakeFiles/UTIL_LIBRARY.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../build/output/lib/libUTIL_LIBRARY.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../build/output/lib/libUTIL_LIBRARY.a"
 	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && $(CMAKE_COMMAND) -P CMakeFiles/UTIL_LIBRARY.dir/cmake_clean_target.cmake
 	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UTIL_LIBRARY.dir/link.txt --verbose=$(VERBOSE)
 

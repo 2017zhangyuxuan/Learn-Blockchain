@@ -67,12 +67,14 @@ test/CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.o: \
  ../cryptopp/include/seckey.h \
  ../cryptopp/include/sha.h \
  ../cryptopp/include/simple.h \
+ ../cryptopp/include/sm3.h \
  ../cryptopp/include/smartptr.h \
  ../cryptopp/include/stdcpp.h \
  ../cryptopp/include/trap.h \
  ../json.hh \
  ../util/AsymmetricKeys.h \
  ../util/ECDSAKeys.h \
+ ../util/SM2.h \
  ../util/util.h \
  ../test/TestCrypto.cpp \
  ../test/TestCrypto.h \

@@ -46,6 +46,7 @@ CMakeFiles/BlockchainWork.dir/main.cpp.o: \
  ../cryptopp/include/modarith.h \
  ../cryptopp/include/modexppc.h \
  ../cryptopp/include/mqv.h \
+ ../cryptopp/include/oids.h \
  ../cryptopp/include/ossig.h \
  ../cryptopp/include/pubkey.h \
  ../cryptopp/include/queue.h \
@@ -54,11 +55,14 @@ CMakeFiles/BlockchainWork.dir/main.cpp.o: \
  ../cryptopp/include/seckey.h \
  ../cryptopp/include/sha.h \
  ../cryptopp/include/simple.h \
+ ../cryptopp/include/sm3.h \
  ../cryptopp/include/smartptr.h \
  ../cryptopp/include/stdcpp.h \
  ../cryptopp/include/trap.h \
  ../json.hh \
+ ../test/TestCrypto.h \
  ../test/test.h \
  ../util/AsymmetricKeys.h \
  ../util/ECDSAKeys.h \
+ ../util/util.h \
  ../main.cpp

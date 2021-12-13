@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../build/output/lib/libTEST_LIBRARY.a CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.o CMakeFiles/TEST_LIBRARY.dir/test.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../build/output/lib/libTEST_LIBRARY.a
+/usr/bin/ar qc ../../build/output/lib/libTEST_LIBRARY.a CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.o CMakeFiles/TEST_LIBRARY.dir/test.cpp.o
+/usr/bin/ranlib ../../build/output/lib/libTEST_LIBRARY.a

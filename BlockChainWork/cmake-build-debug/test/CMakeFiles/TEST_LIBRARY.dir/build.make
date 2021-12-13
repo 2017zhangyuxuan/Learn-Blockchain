@@ -69,28 +69,28 @@ include test/CMakeFiles/TEST_LIBRARY.dir/flags.make
 test/CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.o: test/CMakeFiles/TEST_LIBRARY.dir/flags.make
 test/CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.o: ../test/TestCrypto.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.cpp
 
 test/CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.cpp > CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.cpp > CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.i
 
 test/CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.cpp -o CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.cpp -o CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.s
 
 test/CMakeFiles/TEST_LIBRARY.dir/test.cpp.o: test/CMakeFiles/TEST_LIBRARY.dir/flags.make
 test/CMakeFiles/TEST_LIBRARY.dir/test.cpp.o: ../test/test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/TEST_LIBRARY.dir/test.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST_LIBRARY.dir/test.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.cpp
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST_LIBRARY.dir/test.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.cpp
 
 test/CMakeFiles/TEST_LIBRARY.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TEST_LIBRARY.dir/test.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.cpp > CMakeFiles/TEST_LIBRARY.dir/test.cpp.i
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.cpp > CMakeFiles/TEST_LIBRARY.dir/test.cpp.i
 
 test/CMakeFiles/TEST_LIBRARY.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TEST_LIBRARY.dir/test.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.cpp -o CMakeFiles/TEST_LIBRARY.dir/test.cpp.s
+	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.cpp -o CMakeFiles/TEST_LIBRARY.dir/test.cpp.s
 
 # Object files for target TEST_LIBRARY
 TEST_LIBRARY_OBJECTS = \

@@ -1,7 +1,18 @@
+#include <TestCrypto.h>
 #include "test.h"
-
 using namespace blockchain;
-int main() {
+
+#include "util.h"
+#include <string>
+#include <iostream>
+#include <sm3.h>
+#include <oids.h>
+
+using namespace std;
+
+
+// 执行区块链程序测试
+void test() {
     blockchain::Test t;
 //    t.TestAll();    // 执行一下所有测试
 
@@ -34,6 +45,15 @@ int main() {
     t.TestMiner();
     // 测试 模拟挖矿，挖出10个区块
     t.Miner10Block();
+
+}
+int main() {
+//    test();
+
+    TestCrypto t;
+    t.Test_SM2();
+//    t.Test_SimulateSign();
+
 
 }
 

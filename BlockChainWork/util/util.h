@@ -6,6 +6,11 @@
 #define BLOCKCHAINWORK_UTIL_H
 #include <vector>
 
+// 声明 Integer类
+namespace CryptoPP {
+    class Integer;
+}
+
 // 把加密、哈希的相关算法都放在工具类中
 class Util {
 public:
@@ -26,8 +31,17 @@ public:
     // 输入为Hex编码，进行两次SHA256，输出为Hex编码形式 (注意：输入和输出都是小端模式)
     static std::string DoubleSHA256(const std::string& hex);
 
-    // 输入为产生随机数的字节数
+    // 输入为产生随机数的字节数，输出为数字字节形式
     static std::string GetRandomBytes(int bytes);
+
+    // 输入为产生随机数的字节数，输出为Integer
+    static CryptoPP::Integer GetRandomInteger(int bytes);
+
+    // 输入为哈希值（Hex编码），输出为Integer
+    static CryptoPP::Integer StringToInteger(const std::string& hash);
+
+    // 输入为大整数 Integer，输出为String（Hex编码）
+    static std::string IntegerToString(const CryptoPP::Integer& num);
 
     // 字节形式转换为Hex编码
     static std::string HexEncode(const std::string bytes);
