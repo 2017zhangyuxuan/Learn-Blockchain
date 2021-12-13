@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+../blockchain/DataBase.h
+vector
+-
+unordered_map
+-
+transaction/Transaction.h
+../blockchain/transaction/Transaction.h
+block/Block.h
+../blockchain/block/Block.h
+transaction/UTXO.h
+../blockchain/transaction/UTXO.h
+
 ../blockchain/MerkleTree.h
 vector
 -
@@ -13,6 +25,20 @@ queue
 -
 string
 -
+
+../blockchain/block/Block.h
+string
+-
+vector
+-
+transaction/Transaction.h
+../blockchain/block/transaction/Transaction.h
+MerkleTree.h
+../blockchain/block/MerkleTree.h
+
+../blockchain/block/Miner.h
+block/Block.h
+../blockchain/block/block/Block.h
 
 ../blockchain/transaction/Transaction.h
 vector
@@ -1122,9 +1148,9 @@ string
 vector
 -
 
-/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.cpp
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/TestCrypto.cpp
 TestCrypto.h
-/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/TestCrypto.h
 integer.h
 -
 iostream
@@ -1156,17 +1182,49 @@ sm3.h
 SM2.h
 -
 test.h
-/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/test.h
 ECDSAKeys.h
-/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/ECDSAKeys.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/ECDSAKeys.h
 util.h
-/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/util.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/util.h
 
-/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/TestCrypto.h
 
-/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.h
-MerkleTree.h
-/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/MerkleTree.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/test.cpp
+DataBase.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/DataBase.h
 wallet/SimpleWallet.h
-/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/wallet/SimpleWallet.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/wallet/SimpleWallet.h
+test.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/test.h
+MerkleTree.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/MerkleTree.h
+wallet/WalletKeys.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/wallet/WalletKeys.h
+transaction/Transaction.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/transaction/Transaction.h
+transaction/TxIn.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/transaction/TxIn.h
+transaction/TxOut.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/transaction/TxOut.h
+util.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/util.h
+string
+-
+vector
+-
+iostream
+-
+block/Miner.h
+-
+unordered_map
+-
+hex.h
+-
+
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/test.h
+MerkleTree.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/MerkleTree.h
+wallet/SimpleWallet.h
+/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/wallet/SimpleWallet.h
 

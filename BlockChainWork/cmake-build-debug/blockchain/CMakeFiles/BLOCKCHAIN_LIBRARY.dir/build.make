@@ -53,10 +53,10 @@ RM = "/Users/zhangyuxuan/Library/Application Support/JetBrains/Toolbox/apps/CLio
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork
+CMAKE_SOURCE_DIR = /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/depend.make
@@ -68,146 +68,146 @@ include blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.o: ../blockchain/DataBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/DataBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.o"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.o -c /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/DataBase.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/DataBase.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/DataBase.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/DataBase.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/DataBase.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DataBase.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.o: ../blockchain/MerkleTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/MerkleTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.o"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.o -c /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/MerkleTree.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/MerkleTree.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/MerkleTree.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/MerkleTree.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/MerkleTree.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/MerkleTree.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.o: ../blockchain/block/Block.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.o"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.o -c /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/block/Block.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Block.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/block/Block.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Block.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/block/Block.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Block.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.o: ../blockchain/block/Miner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Miner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.o"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.o -c /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/block/Miner.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Miner.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/block/Miner.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/block/Miner.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/block/Miner.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/block/Miner.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.o: ../blockchain/transaction/Transaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/Transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.o"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.o -c /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/Transaction.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/Transaction.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/Transaction.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/Transaction.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/Transaction.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/Transaction.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.o: ../blockchain/transaction/TxIn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxIn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.o"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.o -c /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/TxIn.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxIn.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/TxIn.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxIn.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/TxIn.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxIn.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.o: ../blockchain/transaction/TxOut.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxOut.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.o"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.o -c /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/TxOut.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxOut.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/TxOut.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/TxOut.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/TxOut.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/TxOut.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.o: ../blockchain/transaction/UTXO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/UTXO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.o"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.o -c /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/UTXO.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/UTXO.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/UTXO.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/transaction/UTXO.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/transaction/UTXO.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/transaction/UTXO.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.o: ../blockchain/wallet/SimpleWallet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/SimpleWallet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.o"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.o -c /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/wallet/SimpleWallet.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/SimpleWallet.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/wallet/SimpleWallet.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/SimpleWallet.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/wallet/SimpleWallet.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/SimpleWallet.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.o: ../blockchain/wallet/Wallet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/Wallet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.o"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.o -c /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/wallet/Wallet.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/Wallet.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/wallet/Wallet.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/Wallet.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/wallet/Wallet.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/Wallet.cpp.s
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/flags.make
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o: ../blockchain/wallet/WalletKeys.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o -c /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/WalletKeys.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o -c /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/wallet/WalletKeys.cpp
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.i"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/WalletKeys.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/wallet/WalletKeys.cpp > CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.i
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.s"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain/wallet/WalletKeys.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain/wallet/WalletKeys.cpp -o CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.s
 
 # Object files for target BLOCKCHAIN_LIBRARY
 BLOCKCHAIN_LIBRARY_OBJECTS = \
@@ -239,19 +239,19 @@ BLOCKCHAIN_LIBRARY_EXTERNAL_OBJECTS =
 ../build/output/lib/libBLOCKCHAIN_LIBRARY.a: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/wallet/WalletKeys.cpp.o
 ../build/output/lib/libBLOCKCHAIN_LIBRARY.a: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/build.make
 ../build/output/lib/libBLOCKCHAIN_LIBRARY.a: blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library ../../build/output/lib/libBLOCKCHAIN_LIBRARY.a"
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && $(CMAKE_COMMAND) -P CMakeFiles/BLOCKCHAIN_LIBRARY.dir/cmake_clean_target.cmake
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BLOCKCHAIN_LIBRARY.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library ../../build/output/lib/libBLOCKCHAIN_LIBRARY.a"
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && $(CMAKE_COMMAND) -P CMakeFiles/BLOCKCHAIN_LIBRARY.dir/cmake_clean_target.cmake
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BLOCKCHAIN_LIBRARY.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/build: ../build/output/lib/libBLOCKCHAIN_LIBRARY.a
 .PHONY : blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/build
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/clean:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain && $(CMAKE_COMMAND) -P CMakeFiles/BLOCKCHAIN_LIBRARY.dir/cmake_clean.cmake
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain && $(CMAKE_COMMAND) -P CMakeFiles/BLOCKCHAIN_LIBRARY.dir/cmake_clean.cmake
 .PHONY : blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/clean
 
 blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/depend:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/depend
 

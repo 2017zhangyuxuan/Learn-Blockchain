@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cryptopp/include -I/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain -I/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test -I/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/util -I/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/.
+CXX_INCLUDES = -I/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cryptopp/include -I/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain -I/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test -I/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/util -I/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/.
 
 CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.5 -std=gnu++14
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/blockchain
+# Install script for directory: /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/blockchain
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

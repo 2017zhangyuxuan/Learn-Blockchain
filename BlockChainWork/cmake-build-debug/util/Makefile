@@ -57,10 +57,10 @@ RM = "/Users/zhangyuxuan/Library/Application Support/JetBrains/Toolbox/apps/CLio
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork
+CMAKE_SOURCE_DIR = /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util//CMakeFiles/progress.marks
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 util/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles 0
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/util//CMakeFiles/progress.marks
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 util/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 util/clean
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 util/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 util/preinstall
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 util/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 util/preinstall
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 util/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 util/CMakeFiles/UTIL_LIBRARY.dir/rule:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 util/CMakeFiles/UTIL_LIBRARY.dir/rule
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 util/CMakeFiles/UTIL_LIBRARY.dir/rule
 .PHONY : util/CMakeFiles/UTIL_LIBRARY.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ UTIL_LIBRARY: util/CMakeFiles/UTIL_LIBRARY.dir/rule
 
 # fast build rule for target.
 UTIL_LIBRARY/fast:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/build
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/build
 .PHONY : UTIL_LIBRARY/fast
 
 ECDSAKeys.o: ECDSAKeys.cpp.o
@@ -135,7 +135,7 @@ ECDSAKeys.o: ECDSAKeys.cpp.o
 
 # target to build an object file
 ECDSAKeys.cpp.o:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.o
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.o
 .PHONY : ECDSAKeys.cpp.o
 
 ECDSAKeys.i: ECDSAKeys.cpp.i
@@ -143,7 +143,7 @@ ECDSAKeys.i: ECDSAKeys.cpp.i
 
 # target to preprocess a source file
 ECDSAKeys.cpp.i:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.i
 .PHONY : ECDSAKeys.cpp.i
 
 ECDSAKeys.s: ECDSAKeys.cpp.s
@@ -151,7 +151,7 @@ ECDSAKeys.s: ECDSAKeys.cpp.s
 
 # target to generate assembly for a file
 ECDSAKeys.cpp.s:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/ECDSAKeys.cpp.s
 .PHONY : ECDSAKeys.cpp.s
 
 SM2.o: SM2.cpp.o
@@ -159,7 +159,7 @@ SM2.o: SM2.cpp.o
 
 # target to build an object file
 SM2.cpp.o:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.o
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.o
 .PHONY : SM2.cpp.o
 
 SM2.i: SM2.cpp.i
@@ -167,7 +167,7 @@ SM2.i: SM2.cpp.i
 
 # target to preprocess a source file
 SM2.cpp.i:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.i
 .PHONY : SM2.cpp.i
 
 SM2.s: SM2.cpp.s
@@ -175,7 +175,7 @@ SM2.s: SM2.cpp.s
 
 # target to generate assembly for a file
 SM2.cpp.s:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/SM2.cpp.s
 .PHONY : SM2.cpp.s
 
 util.o: util.cpp.o
@@ -183,7 +183,7 @@ util.o: util.cpp.o
 
 # target to build an object file
 util.cpp.o:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.o
 .PHONY : util.cpp.o
 
 util.i: util.cpp.i
@@ -191,7 +191,7 @@ util.i: util.cpp.i
 
 # target to preprocess a source file
 util.cpp.i:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.i
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.i
 .PHONY : util.cpp.i
 
 util.s: util.cpp.s
@@ -199,7 +199,7 @@ util.s: util.cpp.s
 
 # target to generate assembly for a file
 util.cpp.s:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.s
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(MAKE) $(MAKESILENT) -f util/CMakeFiles/UTIL_LIBRARY.dir/build.make util/CMakeFiles/UTIL_LIBRARY.dir/util.cpp.s
 .PHONY : util.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

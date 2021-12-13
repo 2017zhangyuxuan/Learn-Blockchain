@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/main.cpp" "/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/CMakeFiles/BlockchainWork.dir/main.cpp.o"
+  "/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/main.cpp" "/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/CMakeFiles/BlockchainWork.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -27,9 +27,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/util/CMakeFiles/UTIL_LIBRARY.dir/DependInfo.cmake"
-  "/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DependInfo.cmake"
-  "/Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/cmake-build-debug/test/CMakeFiles/TEST_LIBRARY.dir/DependInfo.cmake"
+  "/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/util/CMakeFiles/UTIL_LIBRARY.dir/DependInfo.cmake"
+  "/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/blockchain/CMakeFiles/BLOCKCHAIN_LIBRARY.dir/DependInfo.cmake"
+  "/Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/cmake-build-debug/test/CMakeFiles/TEST_LIBRARY.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -48,11 +48,12 @@ void test() {
 
 }
 int main() {
-//    test();
+    test();
 
-    TestCrypto t;
-    t.Test_SM2();
+    // 测试椭圆曲线签名与SM2算法
+//    TestCrypto t;
 //    t.Test_SimulateSign();
+//    t.Test_SM2();
 
 
 }

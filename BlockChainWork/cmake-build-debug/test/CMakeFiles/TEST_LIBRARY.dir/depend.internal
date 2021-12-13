@@ -76,9 +76,9 @@ test/CMakeFiles/TEST_LIBRARY.dir/TestCrypto.cpp.o
  ../util/ECDSAKeys.h
  ../util/SM2.h
  ../util/util.h
- /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.cpp
- /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/TestCrypto.h
- /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.h
+ /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/TestCrypto.cpp
+ /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/TestCrypto.h
+ /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/test.h
 test/CMakeFiles/TEST_LIBRARY.dir/test.cpp.o
  ../blockchain/DataBase.h
  ../blockchain/MerkleTree.h
@@ -144,5 +144,5 @@ test/CMakeFiles/TEST_LIBRARY.dir/test.cpp.o
  ../util/AsymmetricKeys.h
  ../util/ECDSAKeys.h
  ../util/util.h
- /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.cpp
- /Users/zhangyuxuan/WordAndStudy/ClionProjects/BlockChainWork/test/test.h
+ /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/test.cpp
+ /Users/zhangyuxuan/Desktop/研究生课程/区块链/作业/第三次作业.nosync/Learn-Blockchain/BlockChainWork/test/test.h
